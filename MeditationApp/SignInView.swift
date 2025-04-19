@@ -44,6 +44,7 @@ struct SignInView: View {
                         .foregroundColor(.white.opacity(0.7))
 
                     TextField("", text: $email)
+                        .foregroundColor(.white)
                         .padding(.bottom, 10)
                         .overlay(Rectangle().frame(height: 1).foregroundColor(.white.opacity(0.5)), alignment: .bottom)
 
@@ -52,6 +53,7 @@ struct SignInView: View {
                         .foregroundColor(.white.opacity(0.7))
 
                     SecureField("", text: $password)
+                        .foregroundColor(.white)
                         .padding(.bottom, 10)
                         .overlay(Rectangle().frame(height: 1).foregroundColor(.white.opacity(0.5)), alignment: .bottom)
 

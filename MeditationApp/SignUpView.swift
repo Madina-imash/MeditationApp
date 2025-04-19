@@ -50,14 +50,18 @@ struct SignUpView: View {
                 // Поля ввода
                 VStack(spacing: 16) {
                     VStack(alignment: .leading, spacing: 16) {
-                        Text("Ваше имя")
-                            .font(.caption)
-                            .foregroundColor(.white.opacity(0.7))
-                            .offset(y: 25)
+                        if name.isEmpty {
+                            Text("Ваше имя")
+                                .font(.caption)
+                                .foregroundColor(.white.opacity(0.7))
+                                .offset(y: 25)
+                            
+                        }
                         
                         TextField("", text: $name)
-                            .textFieldStyle(PlainTextFieldStyle())
-                            .overlay(Rectangle().frame(height: 1).foregroundColor(.white.opacity(0.5)), alignment: .bottom)
+                                .foregroundColor(.white)
+                                .textFieldStyle(PlainTextFieldStyle())
+                                .overlay(Rectangle().frame(height: 1).foregroundColor(.white.opacity(0.5)), alignment: .bottom)
                     }
                     
                     VStack(alignment: .leading, spacing: 10) {
@@ -67,6 +71,7 @@ struct SignUpView: View {
                             .offset(y: 20)
                         
                         TextField("Name", text: $email)
+                            .foregroundColor(.white)
                             .textFieldStyle(PlainTextFieldStyle())
                             .overlay(Rectangle().frame(height: 1).foregroundColor(.white.opacity(0.5)), alignment: .bottom)
                     }
@@ -78,6 +83,7 @@ struct SignUpView: View {
                             .offset(y: 20)
                         
                         SecureField("", text: $password)
+                            .foregroundColor(.white)
                             .textFieldStyle(PlainTextFieldStyle())
                             .overlay(Rectangle().frame(height: 1).foregroundColor(.white.opacity(0.5)), alignment: .bottom)
                     }

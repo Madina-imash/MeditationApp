@@ -28,6 +28,10 @@
 		DC3F3FE32D983CAF00935F19 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F3FE22D983CAF00935F19 /* BottomNavBar.swift */; };
 		DC3F3FE52DA16F2300935F19 /* SoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F3FE42DA16F2300935F19 /* SoundsView.swift */; };
 		DC3F3FE72DA186FD00935F19 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F3FE62DA186FD00935F19 /* ProfileView.swift */; };
+		DC3F3FE92DB3C1A300935F19 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F3FE82DB3C1A300935F19 /* Track.swift */; };
+		DC3F3FEB2DB3C8D300935F19 /* MusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F3FEA2DB3C8D300935F19 /* MusicService.swift */; };
+		DC3F3FED2DB3C93600935F19 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F3FEC2DB3C93600935F19 /* MusicViewModel.swift */; };
+		DC3F3FEF2DB3CA0E00935F19 /* MeditationMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F3FEE2DB3CA0E00935F19 /* MeditationMusicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		DC3F3FE22D983CAF00935F19 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
 		DC3F3FE42DA16F2300935F19 /* SoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsView.swift; sourceTree = "<group>"; };
 		DC3F3FE62DA186FD00935F19 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DC3F3FE82DB3C1A300935F19 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		DC3F3FEA2DB3C8D300935F19 /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
+		DC3F3FEC2DB3C93600935F19 /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		DC3F3FEE2DB3CA0E00935F19 /* MeditationMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationMusicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +104,12 @@
 				DC3F3FBD2D73607100935F19 /* Preview Content */,
 				DC3F3FDA2D8DBD3600935F19 /* HomeView.swift */,
 				DC3F3FE02D982E5600935F19 /* MusicPlayer.swift */,
+				DC3F3FE82DB3C1A300935F19 /* Track.swift */,
+				DC3F3FEA2DB3C8D300935F19 /* MusicService.swift */,
+				DC3F3FEC2DB3C93600935F19 /* MusicViewModel.swift */,
 				DC3F3FE62DA186FD00935F19 /* ProfileView.swift */,
 				DC3F3FE22D983CAF00935F19 /* BottomNavBar.swift */,
+				DC3F3FEE2DB3CA0E00935F19 /* MeditationMusicView.swift */,
 				DC3F3FDC2D96FA5400935F19 /* MainView.swift */,
 				DC3F3FDE2D96FA9100935F19 /* MoodSelection.swift */,
 				DC3F3FE42DA16F2300935F19 /* SoundsView.swift */,
@@ -195,8 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC3F3FDF2D96FA9200935F19 /* MoodSelection.swift in Sources */,
+				DC3F3FEB2DB3C8D300935F19 /* MusicService.swift in Sources */,
 				DC3F3FC82D846DD800935F19 /* SignUpView.swift in Sources */,
 				DC3F3FDD2D96FA5400935F19 /* MainView.swift in Sources */,
+				DC3F3FEF2DB3CA0E00935F19 /* MeditationMusicView.swift in Sources */,
 				DC3F3FE72DA186FD00935F19 /* ProfileView.swift in Sources */,
 				DC3F3FDB2D8DBD3600935F19 /* HomeView.swift in Sources */,
 				DC3F3FC62D73712500935F19 /* SignInView.swift in Sources */,
@@ -205,8 +219,10 @@
 				DC3F3FBA2D73606F00935F19 /* ContentView.swift in Sources */,
 				DC3F3FCA2D8470BC00935F19 /* ForgotPasswordView.swift in Sources */,
 				DC3F3FE12D982E5600935F19 /* MusicPlayer.swift in Sources */,
+				DC3F3FED2DB3C93600935F19 /* MusicViewModel.swift in Sources */,
 				DC3F3FE52DA16F2300935F19 /* SoundsView.swift in Sources */,
 				DC3F3FB82D73606F00935F19 /* MeditationAppApp.swift in Sources */,
+				DC3F3FE92DB3C1A300935F19 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

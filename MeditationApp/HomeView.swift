@@ -128,7 +128,7 @@ struct MeditationCard: View {
                 
                 Button(action: {}) {
                     HStack {
-                        Text("Watch now")
+                        Text("Watch now") // MARK: при нажатии Watch now переходит на страницу медитации
                             .foregroundColor(.white)
                         Image(systemName: "play.fill")
                             .foregroundColor(.white)
@@ -163,7 +163,7 @@ struct MeditationCard: View {
 //        }
 //    }
 //}
-// 
+//
  
  // Предпросмотр
  struct HomeView_Previews: PreviewProvider {
@@ -171,18 +171,3 @@ struct MeditationCard: View {
  HomeView()
  }
  }
-
-/*struct MainView {
-    var body: some View {
-        TabView {
-            HomeView()
-                .tabItem {
-                    Label("adfsas")
-                }
-            MusicPlayer()
-                .tabItem {
-                    Label
-                }
-        }
-    }
- }*/
